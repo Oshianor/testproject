@@ -20,9 +20,13 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@nestjs/bull": "^0.4.1",
     "@nestjs/common": "^8.0.6",
     "@nestjs/core": "^8.0.6",
+    "@nestjs/mongoose": "^8.0.1",
     "@nestjs/platform-express": "^8.0.6",
+    "bull": "^3.29.2",
+    "mongoose": "^6.0.6",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.3.0"
